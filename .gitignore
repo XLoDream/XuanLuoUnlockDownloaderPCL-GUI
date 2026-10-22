@@ -1,0 +1,17 @@
+# Build artifacts
+*.exe
+*.dll.bak
+obj/
+bin/
+
+# dnlib is embedded, no need to ship raw dll
+# dnlib.dll
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# OS
+Thumbs.db
+desktop.ini
